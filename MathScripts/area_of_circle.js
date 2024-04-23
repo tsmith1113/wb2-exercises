@@ -4,10 +4,10 @@ var radius;
 
 var pi;
 
-pi = 3.14159;
+pi = Math.PI;
 
 radius = 20;
 
-var area = pi*(radius**2) ;
+var area = Math.PI *(radius**2);
 
 console.log('The area of a circle with radius ' + radius + ' is ' + area.toFixed(2));
