@@ -1,18 +1,18 @@
 "use strict";
 
 
-var morning = "Good Morning!";
-var day = "Good Day!";
-var evening = "Good Evening";
-var time = 15;
 
+let time = 3;
+let greeting;
 
 if(time < 10){
-   console.log(morning);
+   greeting = "Good Morning!";
 }
 else if(time >= 10 && 10 <= 16.59){
-    console.log(day);
+   greeting =  "Good Day!";
 }
 else if(time >= 17){
-    console.log(evening);
+   greeting = "Good Evening";
 }
+
+console.log(greeting);
